@@ -5,6 +5,7 @@ export PG_USER="test"
 export PG_PASSWD="testpassword"
 export PG_DB="capstone"
 export DATABASE_URL="postgresql+psycopg2://${PG_USER}:${PG_PASSWD}@${PG_ADDR}/${PG_DB}"
+# export DATABASE_URL="sqlite:////tmp/test.db"
 
 ## == HEROKU APP NAME == ##
 "jl-capstone"
